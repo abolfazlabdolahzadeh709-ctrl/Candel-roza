@@ -1,0 +1,352 @@
+<!DOCTYPE html>
+<html lang="fa">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>رزا کندل | فروشگاه شمع‌های دست‌ساز</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Tahoma', sans-serif;
+      background-color: #fff8f0;
+      color: #333;
+      direction: rtl;
+    }
+    header {
+      background-color: #a85c5c;
+      color: white;
+      padding: 20px;
+      text-align: center;
+    }
+    nav {
+      background-color: #fbeaea;
+      display: flex;
+      justify-content: center;
+      gap: 20px;
+      padding: 10px;
+      flex-wrap: wrap;
+    }
+    nav a {
+      text-decoration: none;
+      color: #a85c5c;
+      font-weight: bold;
+    }
+    .hero {
+      padding: 40px;
+      text-align: center;
+    }
+    .hero h1 {
+      font-size: 2.5em;
+      color: #a85c5c;
+    }
+    .hero p {
+      font-size: 1.2em;
+      margin-top: 10px;
+    }
+    .products {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 30px;
+      padding: 40px;
+    }
+    .product {
+      background-color: white;
+      border-radius: 10px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+      width: 250px;
+      padding: 20px;
+      text-align: center;
+    }
+    .product img {
+      width: 100%;
+      border-radius: 10px;
+    }
+    .product h3 {
+      margin-top: 10px;
+      color: #a85c5c;
+    }
+    .product p {
+      font-size: 0.9em;
+      color: #555;
+    }
+    .product button {
+      margin-top: 10px;
+      padding: 10px 20px;
+      background-color: #a85c5c;
+      color: white;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+    form {
+      background-color: #fbeaea;
+      padding: 30px;
+      margin: 40px auto;
+      max-width: 500px;
+      border-radius: 10px;
+    }
+    input, textarea {
+      width: 100%;
+      padding: 10px;
+      margin-top: 10px;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+      font-family: inherit;
+    }
+    button[type="submit"] {
+      background-color: #a85c5c;
+      color: white;
+      border: none;
+      padding: 10px 20px;
+      margin-top: 15px;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+    footer {
+      background-color: #fbeaea;
+      padding: 20px;
+      text-align: center;
+      font-size: 0.9em;
+      color: #555;
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>رزا کندل</h1>
+  <p>شمع‌هایی با رایحه‌ی عشق و طراحی دست‌ساز</p>
+</header>
+
+<nav>
+  <a href="#products">محصولات</a>
+  <a href="#order">سفارش</a>
+  <a href="#support">پشتیبانی</a>
+  <a href="#policy">سیاست‌ها</a>
+</nav>
+
+<section class="hero">
+  <h1>به فروشگاه رزا کندل خوش آمدید</h1>
+  <p>هر شمع، داستانی‌ست از نور، عطر، و آرامش</p>
+</section>
+
+<section id="products" class="products">
+  <div class="product">
+    <img src="images/rose.jpg" alt="شمع رز">
+    <h3>شمع رز صورتی</h3>
+    <p>رایحه‌ی گل رز، مناسب برای شب‌های عاشقانه</p>
+    <button>افزودن به سفارش</button>
+  </div>
+  <div class="product">
+    <img src="images/cinnamon.jpg" alt="شمع دارچینی">
+    <h3>شمع دارچینی</h3>
+    <p>گرم و آرام‌بخش، مناسب برای پاییز و زمستان</p>
+    <button>افزودن به سفارش</button>
+  </div>
+</section>
+
+<section id="order">
+  <form action="https://formspree.io/f/your-form-id" method="POST">
+    <h2>فرم سفارش</h2>
+    <input type="text" name="name" placeholder="نام شما" required>
+    <input type="email" name="email" placeholder="ایمیل" required>
+    <textarea name="order" placeholder="نوع شمع، تعداد، توضیحات..." required></textarea>
+    <button type="submit">ارسال سفارش</button>
+  </form>
+</section>
+
+<section id="support" class="hero">
+  <h2>پشتیبانی</h2>
+  <p>برای سوالات یا پیگیری سفارش، با ما در واتساپ در تماس باشید:</p>
+  <a href="https://wa.me/98912xxxxxxx" target="_blank">
+    <button>ارتباط با پشتیبانی</button>
+  </a>
+</section>
+
+<section id="policy" class="hero">
+  <h2>سیاست فروش و ارسال</h2>
+  <p>ارسال با پست پیشتاز به سراسر ایران | بازگشت کالا فقط در صورت آسیب‌دیدگی | پرداخت آنلاین یا در محل</p>
+</section>
+
+<footer>
+  <p>تماس با ما: 0912xxxxxxx | اینستاگرام: @rozacandle</p>
+  <p>© 2025 رزا کندل. همه حقوق محفوظ است.</p>
+</footer>
+
+</body>
+</html>
+/* فایل style.css برای رزا کندل */
+
+body {
+  margin: 0;
+  font-family: 'Tahoma', sans-serif;
+  background-color: #fff8f0;
+  color: #333;
+  direction: rtl;
+}
+
+header {
+  background-color: #a85c5c;
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+
+nav {
+  background-color: #fbeaea;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  padding: 10px;
+  flex-wrap: wrap;
+}
+
+nav a {
+  text-decoration: none;
+  color: #a85c5c;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+nav a:hover {
+  color: #8c4444;
+}
+
+.hero {
+  padding: 40px;
+  text-align: center;
+}
+
+.hero h1 {
+  font-size: 2.5em;
+  color: #a85c5c;
+}
+
+.hero p {
+  font-size: 1.2em;
+  margin-top: 10px;
+}
+
+.products {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 30px;
+  padding: 40px;
+}
+
+.product {
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  width: 250px;
+  padding: 20px;
+  text-align: center;
+  transition: 0.3s;
+}
+
+.product:hover {
+  transform: scale(1.03);
+}
+
+.product img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+.product h3 {
+  margin-top: 10px;
+  color: #a85c5c;
+}
+
+.product p {
+  font-size: 0.9em;
+  color: #555;
+}
+
+.product button {
+  margin-top: 10px;
+  padding: 10px 20px;
+  background-color: #a85c5c;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+form {
+  background-color: #fbeaea;
+  padding: 30px;
+  margin: 40px auto;
+  max-width: 500px;
+  border-radius: 10px;
+}
+
+input, textarea {
+  width: 100%;
+  padding: 10px;
+  margin-top: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-family: inherit;
+}
+
+button[type="submit"] {
+  background-color: #a85c5c;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  margin-top: 15px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+footer {
+  background-color: #fbeaea;
+  padding: 20px;
+  text-align: center;
+  font-size: 0.9em;
+  color: #555;
+}
+// اسکرول نرم بین بخش‌ها
+document.querySelectorAll('nav a').forEach(link => {
+  link.addEventListener('click', function(e) {
+    e.preventDefault();
+    const target = document.querySelector(this.getAttribute('href'));
+    target.scrollIntoView({ behavior: 'smooth' });
+  });
+});
+
+// دکمه‌های "افزودن به سفارش" → پر کردن فرم سفارش
+document.querySelectorAll('.product button').forEach(button => {
+  button.addEventListener('click', () => {
+    const productName = button.parentElement.querySelector('h3').textContent;
+    const orderField = document.querySelector('textarea[name="order"]');
+    orderField.value = `سفارش: ${productName}\nتعداد: `;
+    window.scrollTo({ top: document.querySelector('#order').offsetTop, behavior: 'smooth' });
+  });
+});
+
+// پیام تأیید بعد از ارسال فرم
+const form = document.querySelector('form');
+form.addEventListener('submit', () => {
+  alert('سفارش شما با موفقیت ارسال شد! با شما تماس خواهیم گرفت.');
+});
+<a href="https://www.instagram.com/rozacandle" target="_blank">
+  <button>ارسال سفارش در اینستاگرام</button>
+</a>
+<a href="https://ig.me/m/rozacandle" target="_blank">
+  <button>ارسال سفارش با پیام آماده</button>
+</a>
+<textarea id="orderText">سلام رزا کندل عزیز، من می‌خوام شمع رز صورتی سفارش بدم. تعداد: ۲ عدد</textarea>
+<button onclick="copyOrder()">کپی پیام برای اینستاگرام</button>
+
+<script>
+function copyOrder() {
+  const text = document.getElementById("orderText");
+  text.select();
+  document.execCommand("copy");
+  alert("پیام کپی شد! حالا در دایرکت اینستاگرام ارسال کن.");
+}
+</script>
